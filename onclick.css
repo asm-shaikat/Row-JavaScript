@@ -1,0 +1,6 @@
+.asm{
+    display: none;
+}
+.ok:button asm{
+    display: block;
+}
