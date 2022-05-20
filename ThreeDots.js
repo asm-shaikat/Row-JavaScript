@@ -6,3 +6,4 @@ let second=[50,60,70,80];
 let add=[...first,...second];
 console.log(add);
 console.log(Math.max(...second));
+

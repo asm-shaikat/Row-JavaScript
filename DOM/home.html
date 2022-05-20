@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-DOM-</title>
+</head>
+<body>
+    <div class="sec">
+        <h3>Section-1</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, tempora praesentium distinctio libero eveniet
+            quasi dolor, labore consequatur ipsam aperiam a ab ad. Quas saepe, temporibus est sunt minus nesciunt eaque
+            officia voluptatem sit sint blanditiis at enim repudiandae delectus voluptas optio vero, quibusdam accusamus.
+            Praesentium nulla labore reiciendis veniam!</p>
+    </div>
+    <div class="sec">
+        <h3>Section-2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, tempora praesentium distinctio libero eveniet
+            quasi dolor, labore consequatur ipsam aperiam a ab ad. Quas saepe, temporibus est sunt minus nesciunt eaque
+            officia voluptatem sit sint blanditiis at enim repudiandae delectus voluptas optio vero, quibusdam accusamus.
+            Praesentium nulla labore reiciendis veniam!</p>
+    </div>
+    <div class="sec">
+        <h3>Section-3</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, tempora praesentium distinctio libero eveniet
+            quasi dolor, labore consequatur ipsam aperiam a ab ad. Quas saepe, temporibus est sunt minus nesciunt eaque
+            officia voluptatem sit sint blanditiis at enim repudiandae delectus voluptas optio vero, quibusdam accusamus.
+            Praesentium nulla labore reiciendis veniam!</p>
+    </div>
+    <div class="sec">
+        <h3>Section-4</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, tempora praesentium distinctio libero eveniet
+            quasi dolor, labore consequatur ipsam aperiam a ab ad. Quas saepe, temporibus est sunt minus nesciunt eaque
+            officia voluptatem sit sint blanditiis at enim repudiandae delectus voluptas optio vero, quibusdam accusamus.
+            Praesentium nulla labore reiciendis veniam!</p>
+    </div>
+    <div class="sec">
+        <h3>Section-5</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, tempora praesentium distinctio libero eveniet
+            quasi dolor, labore consequatur ipsam aperiam a ab ad. Quas saepe, temporibus est sunt minus nesciunt eaque
+            officia voluptatem sit sint blanditiis at enim repudiandae delectus voluptas optio vero, quibusdam accusamus.
+            Praesentium nulla labore reiciendis veniam!</p>
+    </div>
+
+
+<script>
+    var all = document.querySelectorAll('.sec');
+    // console.log(all);
+    var h3 = document.querySelectorAll('.sec h3');
+    var p = document.querySelectorAll('.sec p');
+    for (let i = 0; i < h3.length; i++) {
+        h3[i].style.color = 'red';
+        p[i].style.color = 'purple';
+        all[i].style.border = '2px solid red';
+        all[i].style.borderRadius = '7px';
+        all[i].style.margin = '7px';
+        all[i].style.textAlign = 'center';
+    }
+</script>
+</body>
+</html>

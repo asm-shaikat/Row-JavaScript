@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show || Hide</title>
+</head>
+<body>
+    <div id="main">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam at optio consequuntur eos accusantium.</p>
+    </div>
+    <button onclick="hlw()">Hide</button>
+<script>
+    function hlw(){
+        var x=document.getElementById("main");
+        if(x.style.display!="none"){
+            x.style.display="none";
+        }
+        else{
+            x.style.display="block";
+        }
+
+    }
+</script>
+</body>
+</html>

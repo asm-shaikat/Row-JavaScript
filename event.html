@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <!-- add event listener -->
+    <button id="btn">Change color</button>
+    <p class="show1">Lorem, ipsum dolor.</p>
+
+
+    <button onclick="evnt()">Set red</button>
+    <p class="show">Lorem, ipsum dolor1.</p>
+    <script>
+        function evnt(){
+            let x = document.querySelector(".show")
+                x.style.color="red";
+        }
+        let a = document.getElementById('btn').addEventListener('click',evnt1);
+        function evnt1(){
+            let b = document.querySelector(".show1");
+            b.style.color='cyan';
+        }
+    </script>
+</body>
+</html>

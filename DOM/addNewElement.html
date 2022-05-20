@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Element</title>
+</head>
+<body>
+    <div >
+        <button onclick="add()">Add new</button>
+        <ul id="ele">
+            <li>This is no-1</li>
+            <li>This is no-2</li>
+            <li>This is no-3</li>
+            <li>This is no-4</li>
+            <li>This is no-5</li>
+        </ul>
+    </div>
+    <div class="input">
+        <input type="text" name="" id="inner-input">
+        <button type="submit" id="inner-button" onclick="rec()">Submit</button>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+    <script>
+        function add() {
+        var sel = document.getElementById('ele');
+        var create = document.createElement('li');
+        create.innerHTML = 'New Number added';
+        sel.appendChild(create);
+        }
+
+        function rec() {
+
+            var val = document.getElementById('inner-input').value;
+            var sel_list = document.getElementById('list');
+            var createElement = document.createElement('li');
+            createElement.innerHTML = val;
+            sel_list.appendChild(createElement);
+        }
+        
+    </script>
+</body>
+</html>
