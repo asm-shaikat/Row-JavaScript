@@ -3,7 +3,7 @@ let lname = 'Shaikat';
 // With es5/ old js
 // console.log('My first name is '+fname+'.'+'\nMy Last name is '+lname+'.');
 
-// with modern js/es6
+// Template sting
 // console.log(`My first name ${fname}.
 // My Last name is ${lname}.`)
 
